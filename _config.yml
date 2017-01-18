@@ -1,5 +1,5 @@
 fancybox: true ## If you want to use fancybox please set the value to true.
-duoshuo: ## Your duoshuo_shortname, e.g. username
+duoshuo: heminghui
 disqus: ## Your disqus_shortname, e.g. username
 google_search: true ## Use Google search, true/false.
 baidu_search: ## Use Baidu search, true/false.
@@ -11,7 +11,8 @@ baidu_analytics: ## Your Baidu Analytics tracking id, e.g. 8006843039519956000
 show_category_count: false ## If you want to show the count of categories in the sidebar widget please set the value to true.
 shareto: true ## If you want to use the share button please set the value to true.
 busuanzi: true ## If you want to use Busuanzi page views please set the value to true.
-widgets_on_small_screens: false ## Set to true to enable widgets on small screens.
+widgets_on_small_screens: true ## Set to true to enable widgets on small screens.
+## rss: /atom.xml
 
 menu:
   - page: home
@@ -20,6 +21,12 @@ menu:
   - page: archive
     directory: archives/
     icon: fa-archive
+  - page: history
+    directory: history/
+    icon: fa-clock-o
+  - page: comments_list
+    directory: comments_list/
+    icon: fa-comments
   - page: about
     directory: about/
     icon: fa-user
@@ -36,22 +43,35 @@ widgets: ## Six widgets in sidebar provided: search, category, tag, recent_posts
   - links
 
 links:
-  - title: site-name1
-    url: http://www.example1.com/
-  - title: site-name2
-    url: http://www.example2.com/
-  - title: site-name3
-    url: http://www.example3.com/
+  - title: ObjC中国
+    url: https://www.objccn.io
+  - title: NSHipster中文版
+    url: http://nshipster.cn
+  - title: Github
+    url: https://github.com/GHeminghui
+  - title: 资料wiki
+    url: http://wiki.jikexueyuan.com
+  - title: 算法online平台
+    url: http://acm.sdibt.edu.cn
+  - title: 个人站入门
+    url: https://www.haomwei.com/technology/maupassant-hexo.html
 
 timeline:
   - num: 1
-    word: 2014/06/12-Start
+    word: 2015/03 尝试用Hexo建立个人博客，先前在新浪博客上
   - num: 2
-    word: 2014/11/29-XXX
+    word: 2015/04 开始正式申请个人域名www.devmurti.com，建立完整的博客 
   - num: 3
-    word: 2015/02/18-DDD
+    word: 2015/05 开始在www.devmurti.com上写博客
   - num: 4
-    word: More
+    word: 2016/12/11 更换域名www.devheminghui.cn
+  - num: 5
+    word: 2017/01/14 近一步完善网站，推送站点地图到百度搜索，添加历史，评论，打赏等
+
+donate:
+  enabled: false
+  message: 此文有用? 求鼓励!
+  qrcode: http://7xs3rb.com1.z0.glb.clouddn.com/IMG_0777.jpg
 
 # Static files
 js: js
